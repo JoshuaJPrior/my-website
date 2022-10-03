@@ -1,0 +1,49 @@
+section{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.flex-one{
+    flex:1;
+}
+
+.flex-two{
+    flex:1;
+}
+
+.flex-three{
+    flex:1;
+}
+
+:root {
+    font-size: 18px;
+}
+
+h1{
+    color: purple;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+h2{
+    color:purple;
+    font-size: 1.75rem;
+}
+
+body{
+    color:white;
+    background-color: #e67300;
+    font-family:verdana
+}
+
+a{
+    display: block;
+}
+
+footer{
+    background-color: darkblue;
+    height: 7rem;
+    text-align: center;
+}
