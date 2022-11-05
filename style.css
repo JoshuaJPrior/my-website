@@ -1,53 +1,70 @@
-section{
-    display: flex;
-    margin: auto;
-    align-items: center;
-    justify-content: space-evenly;
+section {
+  display: flex;
+  margin: auto;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.flex-one{
-    flex:1;
+.flex-one {
+  flex: 1;
 }
 
-.flex-two{
-    flex:1;
+.flex-two {
+  flex: 1;
 }
 
-.flex-three{
-    flex:1;
+.flex-three {
+  flex: 1;
 }
 
 :root {
-    font-size: 18px;
+  font-size: 18px;
 }
 
-h1{
-    color: purple;
-    text-align: center;
-    font-size: 2.5rem;
-    padding-top: 25px;
-    padding-bottom: 25px;
+h1 {
+  color: purple;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 25px;
 }
 
-h2{
-    color:purple;
-    font-size: 1.75rem;
-    padding-top: 50px;
+h2 {
+  color: purple;
+  font-size: 1.75rem;
+  padding-top: 50px;
+  padding-left: 25px;
 }
 
-body{
-    color:white;
-    background-color: #6eb7da;
-    font-family:verdana
+body {
+  color: white;
+  background: linear-gradient(to right, #6eb7da, #00ff6c);
+  font-family: verdana;
 }
 
-a{
-    display: block;
+a {
+  display: block;
+  margin-left: 25px;
+  width: fit-content;
+  height: auto;
 }
 
-footer{
-    background-color: darkblue;
-    height: 7rem;
-    text-align: center;
-    padding-top: 25px;
+p {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+#last-link {
+  margin-bottom: 50px;
+}
+
+#change-background-button {
+  margin-bottom: 45px;
+  margin-left: 25px;
+}
+
+footer {
+  background-color: darkblue;
+  height: 7rem;
+  text-align: center;
+  padding-top: 25px;
 }

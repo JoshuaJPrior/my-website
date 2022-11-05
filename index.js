@@ -10,7 +10,7 @@ function handleClick() {
   console.log("button clicked");
   const rndCol = `rgb(${random(255)}, ${random(255)}, ${random(255)})`;
   console.log(rndCol);
-  document.body.style.backgroundColor = rndCol;
+  document.body.style.background = rndCol;
 }
 
 button.addEventListener("click", handleClick);
